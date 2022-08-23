@@ -1,0 +1,68 @@
+/* estilos.css */
+* {
+    preenchimento :  0 ;
+    margem :  0 ;
+    box-sizing : border-box;
+}
+
+corpo {
+    altura :  100 vh ;
+    exibição : tabulação;
+    fundo :  # e3e3e4 ;
+}
+
+. jogo de memória {
+    largura :  640px; _
+    altura :  640px; _
+    margem : automático;
+    exibição : tabulação;
+    flex- wrap : wrap;
+    perspectiva :  1000 px ;
+
+}
+
+. cartão de memória {
+    largura :  calc ( 25 %  -  10px) ;
+    altura :  calc ( 33.333 %  -  10 px );
+    margem :  5px ; _
+    posição : relativa;
+    transformar :  escalar ( 1 );
+    transform-style : preserve-3d;
+    transição : transforme 0,5 s ;
+    box-shadow :  1 px  1 px  1 px  rgba ( 0 ,  0 ,  0 ,  .3 );
+}
+
+. cartão de memória : ativo {
+    transformar :  escalar ( 0,97 );
+    transição : transforme 0,2 s ;
+}
+
+. cartão de memória . virar {
+    transformar :  girarY ( 180 graus );
+}
+
+. frontal ,
+. contra-rosto {
+    largura :  100 % ;
+    altura :  100 % ;
+    preenchimento :  20px ; _
+    posição : absoluta;
+    área da borda :  5 px ;
+    fundo :  # 1C7CCC ;
+    backface-visibility : oculto;
+}
+
+. frontal {
+    transformar :  girarY ( 180 graus );
+}
+
+. recipiente {
+    largura :  60 % ;
+    margem :  0px 160px ; _ _
+    box-sizing : border-box;
+    exibição : bloco;
+    justificador-conteúdo : centro;
+    align-items : centro;
+    flex- wrap : wrap;
+    topo de preenchimento :  1 rem ;
+} 
